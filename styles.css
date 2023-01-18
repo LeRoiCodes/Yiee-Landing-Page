@@ -276,3 +276,14 @@ a{
     margin-top: 110px;
 
 }
+.features{
+    margin:auto;
+    margin-top: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.features .feature{
+    width: 362px;
+}
