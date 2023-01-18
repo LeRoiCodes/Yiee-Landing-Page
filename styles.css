@@ -278,12 +278,45 @@ a{
 }
 .features{
     margin:auto;
-    margin-top: 108px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     width: 90%;
 }
 .features .feature{
     width: 362px;
+    display: flex;
+    flex-direction: column;
+
+}
+.features .fa{
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 26px;
+    
+}
+.features h3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #257CFF;
+    margin: auto;
+    margin-bottom: 18px;
+}
+.features p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+    mix-blend-mode: normal;
+    margin: auto;
+    padding: 0 16px;
 }
