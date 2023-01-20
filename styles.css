@@ -45,9 +45,9 @@ table {
 a{
     text-decoration: none;
 }
-*{
+/* *{
     outline: 1px solid red;
-   }
+   } */
 
 
 /* Header */
@@ -56,7 +56,7 @@ a{
     display: flex;
     height: 100px;
     padding-top: 10px;
-    width: 90%;
+    width: 85%;
     text-align: center;
     justify-content: space-between;
     align-items: center;
@@ -87,12 +87,12 @@ a{
     display: flex;
     align-items: flex-start;
     padding: 0px;
-    gap:38px;
-    width: 347px;
-    margin-left: -150px;
+    gap:30px;
+    width: 400px;
+    margin-left: -100px;
 }
 .nav_links{
-    width: 101px;
+    width: 151px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -223,8 +223,8 @@ a{
 }
 .company_logos{
     display: flex;
-    width: 90%;
-    gap:28px;
+    width: 85%;
+    gap:20px;
     height: 38px;
     margin: auto;
     margin-top: 180px;
@@ -236,7 +236,7 @@ a{
     display: flex;
     margin: auto;
     margin-top: 100px;
-    width: 90%;
+    width: 85%;
     
 
 }
@@ -282,10 +282,10 @@ a{
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    width: 90%;
+    width: 85%;
 }
 .features .feature{
-    width: 362px;
+    width: 380px;
     display: flex;
     flex-direction: column;
 
@@ -320,3 +320,464 @@ a{
     margin: auto;
     padding: 0 16px;
 }
+.careers{
+    margin-top: 106px;
+    position: relative;
+}
+.careers h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+.careers .title_para {
+    width: 750px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+    margin: auto;
+}
+.careers .links{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    /* height: 86px; */
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(21, 20, 57, 0.2);
+}
+.careers h4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    /* color: #257CFF; */
+    color: rgba(21, 20, 57, 0.4);
+    padding: 20px 20px;
+    margin-top: 28px;
+    
+}
+.careers .first_link{
+    color:#257CFF;
+    border-bottom: 2px solid #257CFF;
+    height: inherit;
+    /* border-bottom: none; */
+}
+.careers h4:hover{
+    color:#257CFF;
+    border-bottom: 2px solid #257CFF;
+}
+.careers .career_features{
+    margin: auto;
+    margin-top: 150px;
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    /* padding-left: 86px; */
+}
+.careers .career_features .career_feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.careers .career_features .about_feature{
+    width: 215px;
+    margin: 0 auto;
+    
+
+}
+.careers .career_features .about_feature h3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #257CFF;
+    margin-bottom: 14px;
+    margin-top: 20px;
+
+}
+.careers .career_features .about_feature p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-bottom: 54px;
+}
+
+.careers .career_features .feature_img{
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.careers .ellipse_89{
+    position: absolute;
+    margin-top: -145px;
+}
+.careers .careers_ad{
+    width: 85%;
+    height: 555px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.careers .careers_card{
+    width: 540px;
+    height: 540px;
+    background-image: url(images/Creative.png);
+    display: flex;
+    justify-content: center;
+    /* margin-right: 108px; */
+}
+.careers .careers_card img{
+    margin-top: -15px;
+    height: 537px;
+}
+.careers .careers_text{
+    /* width: 450px; */
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 48px;
+    gap: 13px;
+}
+.careers .careers_text h3, .dice .dice_text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    font-feature-settings: 'salt' on, 'liga' off; 
+    color: #18191F;
+    width: 450px;
+}
+.careers .careers_text p, .dice .dice_text p{
+    width: 450px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+.careers_ad .careers_btn, .dice .dice_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 121px;
+    height: 24px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #257CFF;
+    border: none;
+}
+
+.careers .dice{
+    width: 1000px;
+    margin: auto;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.careers .block{
+    width: 950px;
+    height: 460px;
+    margin: auto;
+    margin-top: 140px;
+    border: 2px solid #ebeaed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.careers .block .fa{
+    font-size: 62px;
+    line-height: 38px;
+    text-align: center;
+    color: #EBEAED;
+    margin-top: 85px;
+}
+.careers .block h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 40px;
+}
+.careers .block p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+    mix-blend-mode: normal;
+    margin-top: 40px;
+}
+.careers .block button{
+    width: 186px;
+    height: 50px;
+    text-align: center;
+    background: #257cff;
+    color: #ffffff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+.testimonials{
+    width: 85%;
+    margin: auto;
+    margin-top: 150px;
+}
+.testimonials h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: rgba(0, 0, 0, 0.87);
+}
+.testimonials p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.72;
+    margin: auto;
+    margin-top: 40px;
+    width: 785px;
+}
+.testimonials .container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.testimonials .container .card{
+    /* width: 48%; */
+    width: 560px;
+    border-radius: 16px;
+    background: #f4f1f1;
+    margin: 20px 0;
+}
+.testimonials .container .card .quote{
+    margin-top: 37px;
+    margin-left: 34px;
+
+}
+.testimonials .container .card p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 441px;
+    margin-bottom: 30px;
+}
+.testimonials .container .card .author{
+    display: flex;
+    width: 441px;
+    margin: auto;
+    margin-bottom: 38px;
+   
+}
+.testimonials .container .card .author img{
+    width: 36px;
+    height: 36px;
+}
+.testimonials .container .card .author .text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+.testimonials .container .card .author .text h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.testimonials .container .card .author .text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 150px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ .contact{
+    width: 85%;
+    height: 400px;
+    margin: auto;
+    margin-top: 140px;
+    background-color: #f4f1f1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact .info h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 78px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.contact .info p{
+    width: 477px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.72;
+    margin-top: 16px;
+}
+.contact .form{
+    display: flex;
+    flex-direction: column;
+}
+.contact .form input{
+    width: 408px;
+    height: 120px;
+    background: #FFFFFF;
+    opacity: 0.8;
+    backdrop-filter: blur(60px);
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.contact .form input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8F8E94;
+    text-align: start;
+}
+.contact .form button{
+    padding: 16px 24px;
+    background: #121212;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.87);  
+}
+footer{
+    /* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 128px 40px;
+gap: 8px; */
+background: #257CFF;
+margin-top: 100px;
+/* color: rgba(255, 255, 255, 0.6); */
+padding-bottom: 40px;
+}
+.footer_links{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer_links .links h3{
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    border: 2.18593px solid #257CFF;
+    margin-bottom: 16px;
+
+}
+.footer_links .links p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.follow p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.links p:hover{
+    color: rgba(255, 255, 255, 0.1);
+}
+hr{
+    width: 85%;
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    margin-top: 40px;
+}
+footer .footer_end{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 24px;
+}
+
